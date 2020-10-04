@@ -1,0 +1,38 @@
+{
+  "name": "proshop-mern-2020",
+  "version": "1.0.0",
+  "description": "MERN shopping card app",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon backend/server",
+    "client": "npm run start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kejno/proshop-mern-2020.git"
+  },
+  "keywords": [
+    "mern",
+    "javascript",
+    "node",
+    "mongodb",
+    "react",
+    "redux"
+  ],
+  "author": "Artem Rimarchyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kejno/proshop-mern-2020/issues"
+  },
+  "homepage": "https://github.com/Kejno/proshop-mern-2020#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
