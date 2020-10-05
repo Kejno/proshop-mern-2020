@@ -39,7 +39,11 @@ const ProductScreen = ({ match }) => {
               <h2>{name}</h2>
             </ListGroup.Item>
             <ListGroup.Item>
-              <Rating value={rating} text={`${numReviews} reviews`} />
+              <Rating
+                value={rating}
+                text={`${numReviews} reviews`}
+                color='red'
+              />
             </ListGroup.Item>
             <ListGroup.Item>Price: ${price}</ListGroup.Item>
             <ListGroup.Item>Description: {description}</ListGroup.Item>
