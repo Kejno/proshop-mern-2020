@@ -33,6 +33,7 @@ const ProductScreen = ({ history, match }) => {
     description,
     countInStock,
   } = product
+
   return (
     <>
       <Link className='btn btn-dark my-3' to='/'>
